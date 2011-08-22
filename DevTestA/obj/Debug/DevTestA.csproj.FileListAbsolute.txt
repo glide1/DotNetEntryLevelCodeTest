@@ -1,0 +1,5 @@
+c:\users\mhan2\documents\visual studio 2010\Projects\DevTestA\DevTestA\bin\Debug\DevTestA.dll
+c:\users\mhan2\documents\visual studio 2010\Projects\DevTestA\DevTestA\bin\Debug\DevTestA.pdb
+c:\users\mhan2\documents\visual studio 2010\Projects\DevTestA\DevTestA\obj\Debug\ResolveAssemblyReference.cache
+c:\users\mhan2\documents\visual studio 2010\Projects\DevTestA\DevTestA\obj\Debug\DevTestA.dll
+c:\users\mhan2\documents\visual studio 2010\Projects\DevTestA\DevTestA\obj\Debug\DevTestA.pdb

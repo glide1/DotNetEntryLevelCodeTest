@@ -1,0 +1,13 @@
+c:\users\mhan2\documents\visual studio 2010\Projects\DevTestA\DevTestA.Tests\obj\Debug\ResolveAssemblyReference.cache
+c:\users\mhan2\documents\visual studio 2010\Projects\DevTestA\DevTestA.Tests\bin\Debug\DevTestA.Tests.dll
+c:\users\mhan2\documents\visual studio 2010\Projects\DevTestA\DevTestA.Tests\bin\Debug\DevTestA.Tests.pdb
+c:\users\mhan2\documents\visual studio 2010\Projects\DevTestA\DevTestA.Tests\bin\Debug\Autofac.Configuration.dll
+c:\users\mhan2\documents\visual studio 2010\Projects\DevTestA\DevTestA.Tests\bin\Debug\Autofac.dll
+c:\users\mhan2\documents\visual studio 2010\Projects\DevTestA\DevTestA.Tests\bin\Debug\DevTestA.dll
+c:\users\mhan2\documents\visual studio 2010\Projects\DevTestA\DevTestA.Tests\bin\Debug\DevTestA.pdb
+c:\users\mhan2\documents\visual studio 2010\Projects\DevTestA\DevTestA.Tests\bin\Debug\Autofac.xml
+c:\users\mhan2\documents\visual studio 2010\Projects\DevTestA\DevTestA.Tests\obj\Debug\DevTestA.Tests.dll
+c:\users\mhan2\documents\visual studio 2010\Projects\DevTestA\DevTestA.Tests\obj\Debug\DevTestA.Tests.pdb
+c:\users\mhan2\documents\visual studio 2010\Projects\DevTestA\DevTestA.Tests\bin\Debug\Moq.dll
+c:\users\mhan2\documents\visual studio 2010\Projects\DevTestA\DevTestA.Tests\bin\Debug\Moq.pdb
+c:\users\mhan2\documents\visual studio 2010\Projects\DevTestA\DevTestA.Tests\bin\Debug\Moq.xml

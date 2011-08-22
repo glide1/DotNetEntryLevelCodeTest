@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="a7c63bb7-041a-4d56-a892-45edcbceaa12" name="mhan2@DT511 2011-08-22 16:11:04" runUser="ETSDEV\mhan2" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="7d7ca4a7-aa78-4253-89c5-c8e40ba2456e">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="mhan2_DT511 2011-08-22 16_11_04" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2011-08-22T16:11:04.9032950-04:00" queuing="2011-08-22T16:11:05.1502950-04:00" start="2011-08-22T16:11:05.3042950-04:00" finish="2011-08-22T16:11:05.8002950-04:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="2" executed="2" error="0" failed="2" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Can_add_animals_to_zoo" storage="c:\users\mhan2\documents\visual studio 2010\projects\devtesta\devtesta.tests\bin\debug\devtesta.tests.dll" id="8e2f8e6a-c04f-9ab2-1751-cac23d669336">
+      <Execution timeOut="1800000" id="1480279a-f613-4e18-9397-48aafca0cfcf" />
+      <TestMethod codeBase="c:/users/mhan2/documents/visual studio 2010/Projects/DevTestA/DevTestA.Tests/bin/Debug/DevTestA.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DevTestA.Tests.ZooTest, DevTestA.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Can_add_animals_to_zoo" />
+    </UnitTest>
+    <UnitTest name="Zoo_does_contain_a_lion" storage="c:\users\mhan2\documents\visual studio 2010\projects\devtesta\devtesta.tests\bin\debug\devtesta.tests.dll" id="5ae81186-f7a0-aa59-4ec3-32057535b314">
+      <Execution timeOut="1800000" id="96072dc1-2902-4616-9664-c9344e5d2d45" />
+      <TestMethod codeBase="c:/users/mhan2/documents/visual studio 2010/Projects/DevTestA/DevTestA.Tests/bin/Debug/DevTestA.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DevTestA.Tests.ZooTest, DevTestA.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Zoo_does_contain_a_lion" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="8e2f8e6a-c04f-9ab2-1751-cac23d669336" executionId="1480279a-f613-4e18-9397-48aafca0cfcf" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5ae81186-f7a0-aa59-4ec3-32057535b314" executionId="96072dc1-2902-4616-9664-c9344e5d2d45" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="1480279a-f613-4e18-9397-48aafca0cfcf" testId="8e2f8e6a-c04f-9ab2-1751-cac23d669336" testName="Can_add_animals_to_zoo" computerName="DT511" duration="00:00:00.0557790" startTime="2011-08-22T16:11:05.3552950-04:00" endTime="2011-08-22T16:11:05.7292950-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1480279a-f613-4e18-9397-48aafca0cfcf">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method DevTestA.Tests.ZooTest.Can_add_animals_to_zoo threw exception: 
+System.NotImplementedException: The method or operation is not implemented.</Message>
+          <StackTrace>    at DevTestA.Implementations.Zoo.AddAnimal(IAnimal animal) in c:\users\mhan2\documents\visual studio 2010\Projects\DevTestA\DevTestA\Implementations\Zoo.cs:line 9
+   at DevTestA.Tests.ZooTest.Can_add_animals_to_zoo() in c:\users\mhan2\documents\visual studio 2010\Projects\DevTestA\DevTestA.Tests\ZooTest.cs:line 43
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="96072dc1-2902-4616-9664-c9344e5d2d45" testId="5ae81186-f7a0-aa59-4ec3-32057535b314" testName="Zoo_does_contain_a_lion" computerName="DT511" duration="00:00:00.0010855" startTime="2011-08-22T16:11:05.7392950-04:00" endTime="2011-08-22T16:11:05.7412950-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="96072dc1-2902-4616-9664-c9344e5d2d45">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method DevTestA.Tests.ZooTest.Zoo_does_contain_a_lion threw exception: 
+System.NotImplementedException: The method or operation is not implemented.</Message>
+          <StackTrace>    at DevTestA.Implementations.Zoo.AddAnimal(IAnimal animal) in c:\users\mhan2\documents\visual studio 2010\Projects\DevTestA\DevTestA\Implementations\Zoo.cs:line 9
+   at DevTestA.Tests.ZooTest.Zoo_does_contain_a_lion() in c:\users\mhan2\documents\visual studio 2010\Projects\DevTestA\DevTestA.Tests\ZooTest.cs:line 52
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

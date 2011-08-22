@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="3a5c6ee0-d549-40b7-a16f-a5b9e3c2c48f" name="mhan2@DT511 2011-08-22 13:47:40" runUser="ETSDEV\mhan2" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="7b38a738-fb35-4c58-8e23-b6e3b824f9ae">
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+    <Deployment runDeploymentRoot="mhan2_DT511 2011-08-22 13_47_40" />
+  </TestSettings>
+  <Times creation="2011-08-22T13:47:40.7076674-04:00" queuing="2011-08-22T13:47:41.1766674-04:00" start="2011-08-22T13:47:41.3516674-04:00" finish="2011-08-22T13:47:41.7168652-04:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Can_add_animals_to_zoo" storage="c:\users\mhan2\documents\visual studio 2010\projects\devtesta\devtesta\bin\debug\devtesta.dll" id="8e2f8e6a-c04f-9ab2-1751-cac23d669336">
+      <Execution timeOut="1800000" id="f888690c-7db3-44a0-872b-36ca387bf288" />
+      <TestMethod codeBase="c:/users/mhan2/documents/visual studio 2010/Projects/DevTestA/DevTestA/bin/Debug/DevTestA.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DevTestA.Tests.ZooTest, DevTestA, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Can_add_animals_to_zoo" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="8e2f8e6a-c04f-9ab2-1751-cac23d669336" executionId="f888690c-7db3-44a0-872b-36ca387bf288" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="f888690c-7db3-44a0-872b-36ca387bf288" testId="8e2f8e6a-c04f-9ab2-1751-cac23d669336" testName="Can_add_animals_to_zoo" computerName="DT511" duration="00:00:00.0272670" startTime="2011-08-22T13:47:41.4204671-04:00" endTime="2011-08-22T13:47:41.6544656-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f888690c-7db3-44a0-872b-36ca387bf288">
+    </UnitTestResult>
+  </Results>
+</TestRun>

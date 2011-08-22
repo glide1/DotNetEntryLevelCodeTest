@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="e853748f-3da3-4fd1-939b-0f9c63d5dd5e" name="mhan2@DT511 2011-08-22 16:04:06" runUser="ETSDEV\mhan2" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="7d7ca4a7-aa78-4253-89c5-c8e40ba2456e">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="mhan2_DT511 2011-08-22 16_04_06" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2011-08-22T16:04:06.9758768-04:00" queuing="2011-08-22T16:04:07.2328768-04:00" start="2011-08-22T16:04:07.4288753-04:00" finish="2011-08-22T16:04:08.0988686-04:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Can_add_animals_to_zoo" storage="c:\users\mhan2\documents\visual studio 2010\projects\devtesta\devtesta.tests\bin\debug\devtesta.tests.dll" id="8e2f8e6a-c04f-9ab2-1751-cac23d669336">
+      <Execution timeOut="1800000" id="7c61906c-28d0-49fb-a61c-bec3225205e2" />
+      <TestMethod codeBase="c:/users/mhan2/documents/visual studio 2010/Projects/DevTestA/DevTestA.Tests/bin/Debug/DevTestA.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DevTestA.Tests.ZooTest, DevTestA.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Can_add_animals_to_zoo" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="8e2f8e6a-c04f-9ab2-1751-cac23d669336" executionId="7c61906c-28d0-49fb-a61c-bec3225205e2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="7c61906c-28d0-49fb-a61c-bec3225205e2" testId="8e2f8e6a-c04f-9ab2-1751-cac23d669336" testName="Can_add_animals_to_zoo" computerName="DT511" duration="00:00:00.3330045" startTime="2011-08-22T16:04:07.4788748-04:00" endTime="2011-08-22T16:04:08.0288693-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7c61906c-28d0-49fb-a61c-bec3225205e2">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method DevTestA.Tests.ZooTest.Can_add_animals_to_zoo threw exception: 
+Autofac.Core.Registration.ComponentNotRegisteredException: The requested service 'DevTestA.IZoo' has not been registered. To avoid this exception, either register a component to provide the service, check for service registration using IsRegistered(), or use the ResolveOptional() method to resolve an optional dependency.</Message>
+          <StackTrace>    at Autofac.ResolutionExtensions.ResolveService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   at Autofac.ResolutionExtensions.Resolve[TService](IComponentContext context, IEnumerable`1 parameters)
+   at Autofac.ResolutionExtensions.Resolve[TService](IComponentContext context)
+   at DevTestA.Tests.ZooTest.Can_add_animals_to_zoo() in c:\users\mhan2\documents\visual studio 2010\Projects\DevTestA\DevTestA.Tests\ZooTest.cs:line 40
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

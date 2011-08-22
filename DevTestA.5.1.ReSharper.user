@@ -1,0 +1,120 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="8663EB53-DDA2-4F42-80DA-9E2C683E7889/f:packages.config" caret="111" fromTop="3" />
+      <File id="8663EB53-DDA2-4F42-80DA-9E2C683E7889/f:ILion.cs" caret="69" fromTop="4" />
+      <File id="8663EB53-DDA2-4F42-80DA-9E2C683E7889/f:IZoo.cs" caret="609" fromTop="15" />
+      <File id="8663EB53-DDA2-4F42-80DA-9E2C683E7889/f:IAnimal.cs" caret="179" fromTop="7" />
+      <File id="8663EB53-DDA2-4F42-80DA-9E2C683E7889/d:Implementations/f:Lion.cs" caret="217" fromTop="11" />
+      <File id="8663EB53-DDA2-4F42-80DA-9E2C683E7889/d:Implementations/f:Zoo.cs" caret="373" fromTop="16" />
+      <File id="8663EB53-DDA2-4F42-80DA-9E2C683E7889/d:Tests/f:ZooTest.cs" caret="128" fromTop="7" />
+      <File id="890EC91F-4CD2-4DE2-A241-059F8D3DB007/f:ZooTest.cs" caret="1018" fromTop="11" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="8663EB53-DDA2-4F42-80DA-9E2C683E7889/d:Tests/f:ZooTest.cs" caret="128" fromTop="19" />
+      <File id="8663EB53-DDA2-4F42-80DA-9E2C683E7889/d:Tests/f:ZooTest.cs" caret="128" fromTop="19" />
+      <File id="8663EB53-DDA2-4F42-80DA-9E2C683E7889/d:Tests/f:ZooTest.cs" caret="128" fromTop="13" />
+      <File id="8663EB53-DDA2-4F42-80DA-9E2C683E7889/d:Tests/f:ZooTest.cs" caret="128" fromTop="5" />
+      <File id="8663EB53-DDA2-4F42-80DA-9E2C683E7889/d:Tests/f:ZooTest.cs" caret="128" fromTop="25" />
+      <File id="8663EB53-DDA2-4F42-80DA-9E2C683E7889/f:ILion.cs" caret="66" fromTop="3" />
+      <File id="8663EB53-DDA2-4F42-80DA-9E2C683E7889/f:IZoo.cs" caret="258" fromTop="6" />
+      <File id="8663EB53-DDA2-4F42-80DA-9E2C683E7889/d:Implementations/f:Zoo.cs" caret="83" fromTop="4" />
+      <File id="8663EB53-DDA2-4F42-80DA-9E2C683E7889/f:IZoo.cs" caret="610" fromTop="15" />
+      <File id="8663EB53-DDA2-4F42-80DA-9E2C683E7889/d:Implementations/f:Zoo.cs" caret="209" fromTop="9" />
+      <File id="8663EB53-DDA2-4F42-80DA-9E2C683E7889/d:Tests/f:ZooTest.cs" caret="131" fromTop="23" />
+      <File id="8663EB53-DDA2-4F42-80DA-9E2C683E7889/d:Tests/f:ZooTest.cs" caret="128" fromTop="26" />
+      <File id="8663EB53-DDA2-4F42-80DA-9E2C683E7889/f:IAnimal.cs" caret="118" fromTop="5" />
+      <File id="8663EB53-DDA2-4F42-80DA-9E2C683E7889/d:Implementations/f:Lion.cs" caret="85" fromTop="4" />
+      <File id="8663EB53-DDA2-4F42-80DA-9E2C683E7889/d:Tests/f:ZooTest.cs" caret="128" fromTop="7" />
+      <File id="890EC91F-4CD2-4DE2-A241-059F8D3DB007/f:ZooTest.cs" caret="1294" fromTop="31" />
+      <File id="890EC91F-4CD2-4DE2-A241-059F8D3DB007/f:ZooTest.cs" caret="887" fromTop="31" />
+      <File id="890EC91F-4CD2-4DE2-A241-059F8D3DB007/f:ZooTest.cs" caret="266" fromTop="13" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False">
+    </NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="public" priority="17" />
+      <Item value="class" priority="2" />
+      <Item value="using" priority="1" />
+      <Item value="Microsoft" priority="0" />
+      <Item value="VisualBasic" priority="0" />
+      <Item value="void" priority="9" />
+      <Item value="Animal`0" priority="0" />
+      <Item value="throw" priority="4" />
+      <Item value="new" priority="5" />
+      <Item value="NotImplementedException" priority="4" />
+      <Item value="int" priority="2" />
+      <Item value="long" priority="0" />
+      <Item value="ISupply`0" priority="0" />
+      <Item value="string" priority="1" />
+      <Item value="double" priority="2" />
+      <Item value="interface" priority="1" />
+      <Item value="ClassInitialize" priority="0" />
+      <Item value="ClassCleanup" priority="0" />
+      <Item value="_container" priority="5" />
+      <Item value="Autofac" priority="0" />
+      <Item value="ContainerBuilder`0" priority="0" />
+      <Item value="builder" priority="1" />
+      <Item value="AssemblyCleanupAttribute`0" priority="0" />
+      <Item value="TestMethod" priority="1" />
+      <Item value="IZoo`0" priority="1" />
+      <Item value="zoo" priority="4" />
+      <Item value="TestContext`0" priority="0" />
+      <Item value="context" priority="0" />
+      <Item value="var" priority="2" />
+      <Item value="IAnimal`0" priority="1" />
+      <Item value="ILion`0" priority="2" />
+      <Item value="newLion" priority="0" />
+      <Item value="typeof" priority="0" />
+      <Item value="Assert`0" priority="0" />
+      <Item value="where" priority="0" />
+      <Item value="System" priority="0" />
+      <Item value="Console`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Autofac.ContainerBuilder">
+      <Item value="RegisterAssemblyTypes`0" priority="0" />
+      <Item value="Build`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Reflection.Assembly">
+      <Item value="GetExecutingAssembly`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Autofac.Builder.IRegistrationBuilder`3">
+      <Item value="Where`3" priority="0" />
+      <Item value="AsImplementedInterfaces`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Type">
+      <Item value="Namespace" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.String">
+      <Item value="Contains`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Autofac.IContainer">
+      <Item value="Dispose`0" priority="0" />
+      <Item value="Resolve`0" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Microsoft.VisualStudio.TestTools.UnitTesting.Assert">
+      <Item value="IsTrue`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Console">
+      <Item value="Write`0" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>
